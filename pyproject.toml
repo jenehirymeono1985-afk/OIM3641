@@ -1,0 +1,17 @@
+[project]
+name = "oim3641-classwork"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "jenehirymeono1985-afk", email = "jenehirymeono1985@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+oim3641-classwork = "oim3641_classwork:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"
